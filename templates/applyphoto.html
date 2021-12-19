@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+<h1>사진업로드하기</h1>
+<span>사진업로드하기</span>
+<form method ="POST" enctype="multipart/form-data" action ="{{url_for('upload_done')}}">
+    <input type="file" name = "file"/>
+    <input type = "submit"/>
+    </form> 
+    
+</div>
+</body>
+</html>
